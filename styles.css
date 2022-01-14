@@ -1,0 +1,68 @@
+.top{
+    background-color: #e7717d    ;
+}
+.about{
+        position: absolute;
+        height:80px ;
+        top:57%;
+        
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 35%;
+            height: 150px;
+            overflow-y: scroll;
+
+}
+img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  padding: 5px;
+  width: 60%;
+  right:150px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+.contact{
+    position: absolute;
+        height:70px ;
+        top:57%;
+        right:100px;
+        
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 35%;
+            height: 150px;
+            overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.bottom{
+    color: black;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(167, 86, 86);
+    color: white;
+    text-align: center;
+  }
