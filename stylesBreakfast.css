@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+    font-family: fantasy;
+    position: absolute;
+    top:40px;
+    right:700px;
+}
+p{
+    text-align: left;
+    font-family: sans-serif;
+    position: absolute;
+    top:60px;
+    font-size: 20px;
+}
+.footer {
+    position: fixed;
+    font-family: Arial  ;
+    font-size: 0.4em;
+	text-transform: uppercase;
+    left: 0;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(128, 53, 53);
+    color: rgb(194, 172, 172);
+    text-align: center;
+  }
+  .about{
+    position: absolute;
+    height:80px ;
+    top:65%;
+    right:-0px;
+        border: 0px solid red;
+        padding: 5px;
+        margin-top: 5px;
+        width: 65%;
+        height: 150px;
+        overflow-y: scroll;
+
+}
