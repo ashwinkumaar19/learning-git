@@ -38,3 +38,7 @@ p{
         overflow-y: scroll;
 
 }
+.table table-striped{
+    width: 60%;
+    top:70%
+}
